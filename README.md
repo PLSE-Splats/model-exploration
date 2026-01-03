@@ -1,20 +1,14 @@
 # Model Exploration
 
-[![PyPI - Version](https://img.shields.io/pypi/v/model-exploration.svg)](https://pypi.org/project/model-exploration)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/model-exploration.svg)](https://pypi.org/project/model-exploration)
-
 -----
-
-## Table of Contents
-
-- [Installation](#installation)
-- [License](#license)
 
 ## Installation
 
-```console
-pip install model-exploration
-```
+- [Install Hatch](https://hatch.pypa.io/latest/install/) (this is a python environment manager).
+- Clone repository.
+- Run `hatch shell` to enter the virtual environment.
+- Run through the notebooks in `src/model_exploration`.
+  - Edit the `MODEL_PATH` and `OUTPUT_PATH` variables in the first cell.
 
 ## License
 
