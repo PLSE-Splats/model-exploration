@@ -25,9 +25,9 @@ classifiers = [
     "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dependencies = [
-    "notebook==7.5.1",
+    "notebook==7.5.4",
     "plyfile==1.1.3",
-    "numpy==2.4.0",
+    "numpy==2.4.2",
     "matplotlib==3.10.8"
 ]
 
@@ -41,6 +41,7 @@ path = "src/model_exploration/__about__.py"
 
 [tool.hatch.envs.default]
 python = "3.14"
+installer = "uv"
 
 [tool.hatch.envs.types]
 extra-dependencies = [
